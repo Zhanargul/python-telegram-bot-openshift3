@@ -22,7 +22,7 @@ def help(bot, update):
     """Send a message when the command /help is issued."""
     # update.message.reply_text('You can get any help here.')
 
-    keyboardButtons = [[InlineKeyboardButton("Помощь", callback_data="1")],
+    keyboardButtons = [[InlineKeyboardButton("Первая помощь", callback_data="1")],
                        [InlineKeyboardButton("Примеры", callback_data="2")],
                        [InlineKeyboardButton("Ссылка", url="http://google.com")]]
     keyboard = InlineKeyboardMarkup(keyboardButtons)
